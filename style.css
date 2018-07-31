@@ -1,0 +1,179 @@
+/*HEADER*/
+header{
+	background-color: black;
+	display: flex;
+	width: 100%;
+}
+
+.logo{
+	display: inline-flex;
+	align-items: center;
+	font-size: 18px;
+	font-family: Helvetica;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin-left: 450px;
+}
+
+.logo img{
+	height: auto;
+	width: 10%;
+	padding-right: 15px;
+}
+/*END HEADER*/
+/*BANNER*/
+.moto{
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url("media/moto.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-right: 570px;
+}
+
+.newarrival{
+	width: 400px;
+	height: 165px;
+	background-color: black;
+	padding: 30px 30px;
+	font-weight: bold;
+}
+
+.newarrival h4{
+	color: white;
+	font-size: 18px;
+	font-family: Helvetica;
+	padding: 20px 0 20px 30px;
+}
+
+.newarrival h1{
+	color: white;
+	font-size: 36px;
+	font-family: Helvetica;
+	padding-left: 30px;
+	line-height: 45px;
+}
+/*END BANNER*/
+/*NAV*/
+nav{
+	background-color: #B00024;
+	text-align: center;
+}
+
+nav li{
+	display: inline-block;
+	color: white;
+	font-family: Helvetica;
+	font-size: 18px;
+	padding: 20px 50px;
+}
+
+/*END NAV*/
+/*PRODUCTS*/
+.container{
+	margin-top: 50px;
+}
+
+.boxes{
+	display: flex;
+	justify-content: center;
+}
+
+.productbox{
+	display: flex;
+	border: 5px solid black;
+	height: 300px;
+	justify-content: center;
+	align-items: center;
+	margin: 0 30px;
+	width: 300px;
+}
+
+.productbox img{
+	width: 85%;
+}
+
+.description{
+	background-color: black;
+	color: white;
+	display: flex;
+	font-family: Helvetica;
+	font-size: 18px;
+	justify-content: center;
+	margin-left: 30px;
+	padding: 15px 0;
+	width: 310px;
+}
+
+#pen{
+	width: 60%;
+}
+
+#watch {
+	width: 70%;
+}
+
+#glasses{
+	width: 70%;
+}
+/*END PRODUCTS*/
+/*INFORMATION*/
+.infocontainer{
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+
+.informationbox{
+	display: flex;
+	justify-content: center;
+}
+
+.details{
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+	font-size: 18px;
+	padding: 15px 0;
+	width: 310px;
+	margin: 0 215px;
+}
+
+.details span{
+	padding-left: 30px;
+}
+
+.latitude{
+	margin-top: 30px;
+}
+
+.latitudebox{
+	display: flex;
+	justify-content: center;
+}
+
+.place{
+	font-family: Helvetica;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0 215px;
+	width: 310px;
+}
+/*END INFORMATION*/
+/*FOOTER*/
+
+footer{
+	height: 200px;
+	background-color: black;
+	padding-top: 10px;
+}
+
+.copyright{
+	color: white;
+	font-family: Helvetica;
+	font-size: 18px;
+	margin: 100px 0 0 100px;
+}
