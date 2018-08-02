@@ -87,52 +87,52 @@ nav li{
 	display: flex;
 	border: 5px solid black;
 	height: 300px;
+	width: 300px;
 	justify-content: center;
 	align-items: center;
 	margin: 0 30px;
-	width: 300px;
-}
-
-.productbox img{
-	width: 85%;
-}
-
-.description{
-	background-color: black;
-	color: white;
-	display: flex;
-	font-family: Helvetica;
-	font-size: 18px;
-	justify-content: center;
-	margin-left: 30px;
-	padding: 15px 0;
-	width: 310px;
 }
 
 #pen{
 	width: 60%;
 }
 
-#watch {
+#watch{
 	width: 70%;
 }
 
 #glasses{
-	width: 70%;
+	width: 80%;
 }
 /*END PRODUCTS*/
+/*CAPTIONS*/
+.product p{
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-family: Helvetica;
+	font-size: 18px;
+	padding: 15px 0;
+	margin: 0 30px;
+}
+/*END CAPTIONS*/
 /*INFORMATION*/
-.infocontainer{
+.information{
 	margin-top: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 150px; 
 }
 
-.informationbox{
+.infoboxes{
 	display: flex;
 	justify-content: center;
+
 }
 
-.details{
+.infoboxes2{
+	display: flex;
+}
+
+.infoboxes2 p{
 	background-color: black;
 	color: white;
 	font-family: Helvetica;
@@ -140,40 +140,22 @@ nav li{
 	padding: 15px 0;
 	width: 310px;
 	margin: 0 215px;
+	text-align: center;
 }
-
-.details span{
-	padding-left: 30px;
-}
-
-.latitude{
-	margin-top: 30px;
-}
-
-.latitudebox{
-	display: flex;
-	justify-content: center;
-}
-
-.place{
-	font-family: Helvetica;
-	font-size: 18px;
-	font-weight: bold;
-	margin: 0 215px;
-	width: 310px;
-}
-/*END INFORMATION*/
+/*INFORMATION*/
 /*FOOTER*/
-
-footer{
-	height: 200px;
+.footer{
 	background-color: black;
-	padding-top: 10px;
+	height: 200px;
 }
 
-.copyright{
+.footercontent{
+	padding-top: 100px;
+	padding-left: 200px;
+}
+
+.footercontent p{
 	color: white;
 	font-family: Helvetica;
 	font-size: 18px;
-	margin: 100px 0 0 100px;
 }
