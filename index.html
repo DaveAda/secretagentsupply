@@ -8,22 +8,29 @@
 <body>
 	<!--HEADER-->
 	<header>
-		<div class="logo">
-			<img src="media/logo.png"/>
-			<h1>SECRET AGENT SUPPLY INC.</h1>
+		<div class="headerbox">
+			<div class="logo">
+				<img src="media/logo.png"/>
+			</div>
+				<h1>SECRET AGENT SUPPLY INC.</h1>
 		</div>
 	</header>
 	<!--BANNER-->
 	<div class="banner">
-		<div class="moto">
-			<div class="newarrival">
-				<h4>NEW ARRIVAL</h4>
-				<h1>SPORT BIKES AND MOTORCYCLES</h1>
+		<div class="bannerbox">
+			<div class="moto">
+				<div class="newarrival">
+					<h4>NEW ARRIVAL</h4>
+					<h1>SPORT BIKES AND MOTORCYCLES</h1>
+				</div>
 			</div>
 		</div>
 	</div>
 	<!--NAV-->
-	<nav>
+	<nav class="mobilenav">
+		<li>Menu</li>
+	</nav>
+	<nav class="desktopnav">
 		<ul>
 			<li>Eyewear</li>
 			<li>Apparel</li>
@@ -34,46 +41,48 @@
 		</ul>
 	</nav>
 	<!--PRODUCTS-->
-	<div class="container">
+	<div class="productcontainer">
 		<div class="boxes">
-			<div class="product">
+			<div class="product pen">
 				<div class="productbox">
 					<img id="pen" src="media/pen.png"/>
-				</div>	
-				<p>Exploding Pen</p>
+				</div>
+					<p>Exploding Pen</p>
 			</div>
-			<div class="product">
+			<div class="product watch">
 				<div class="productbox">
 					<img id="watch" src="media/watch.png"/>
 				</div>
-				<p>Cellular Watch</p>
+					<p>Cellular Watch</p>
 			</div>
-			<div class="product">
+			<div class="product glasses">
 				<div class="productbox">
 					<img id="glasses" src="media/glasses.png"/>
 				</div>
-				<p>Thermal Glasses</p>
+					<p>Thermal Glasses</p>
 			</div>
 		</div>
 	</div>
 	<!--INFORMATION-->
-	<div class="information">
-		<div class="infoboxes">
-			<div class="infoboxes2">
-				<p>Location</p>
-				<p>Hours</p>
+	<div class="productcontainer" id="bottom">
+		<div class="infocontainer">
+			<div class="boxes">
+				<div class="product">
+					<p class="thesetwo">Location</p>
+					<p id="coordinates">-47.346436, 84.32354</p>
+				</div>
+				<div class="product">
+					<p class="thesetwo">Hours</p>
+					<p id="coordinates">0800 - 1800</p>		
+				</div>
 			</div>
-		</div>
-		<div class="infodetails">
-			<p>-47.346436, 84.32354</p>
-			<p>0800 - 1800</p>
 		</div>
 	</div>
 	<!--FOOTER-->
 	<div class="footer">
-		<div class="footercontent">
-			<p>Copyright Secret Agent Supply Inc.
-		</div>	
-	</div>	
+		<div class="copyright">
+			<p>&copy Secret Agent Supply</p>
+		</div>
+	</div>
 </body>
 </html>

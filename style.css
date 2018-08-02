@@ -1,41 +1,48 @@
 /*HEADER*/
 header{
 	background-color: black;
-	display: flex;
+	position: fixed;
 	width: 100%;
 }
 
-.logo{
-	display: inline-flex;
+.headerbox{
+	display: flex;
 	align-items: center;
-	font-size: 18px;
-	font-family: Helvetica;
-	color: white;
-	text-align: center;
-	padding: 10px 0;
-	margin-left: 450px;
+	width: 960px;
+	margin: 0 auto;
 }
 
-.logo img{
-	height: auto;
-	width: 10%;
-	padding-right: 15px;
+.headerbox img{
+	width: 70%;
+	padding: 10px 0;
+}
+
+.headerbox h1{
+	color: white;
+	font-family: Helvetica;
+	font-size: 18px;
 }
 /*END HEADER*/
 /*BANNER*/
-.moto{
-	height: 450px;
+.bannerbox{
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	height: 450px;
 	background-image: url("media/moto.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	padding-right: 570px;
+}
+
+.moto{
+	display: flex;
+	width: 960px;
+	align-items: center;
+	margin: 0 auto;
 }
 
 .newarrival{
+	display: flex;
+	flex-direction: column;
 	width: 400px;
 	height: 165px;
 	background-color: black;
@@ -60,115 +67,94 @@ header{
 /*END BANNER*/
 /*NAV*/
 nav{
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
+}
+
+.desktopnav, .mobilenav{
 	background-color: #B00024;
 	text-align: center;
 }
 
+nav ul{
+	display: flex;
+}
+
 nav li{
-	display: inline-block;
 	color: white;
 	font-family: Helvetica;
 	font-size: 18px;
 	padding: 20px 50px;
 }
 
+.mobilenav{
+	display: none;
+}
 /*END NAV*/
 /*PRODUCTS*/
-.container{
-	margin-top: 50px;
+.productcontainer{
+	width: 960px;
+	margin: 50px auto 0 auto;
+	text-align: center;
 }
 
 .boxes{
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
 .productbox{
 	display: flex;
-	border: 5px solid black;
-	height: 300px;
 	width: 300px;
+	height: 300px;
+	border: 4px solid black;
 	justify-content: center;
 	align-items: center;
-	margin: 0 30px;
 }
 
-#pen{
+.productbox img{
 	width: 60%;
-}
-
-#watch{
-	width: 70%;
-}
-
-#glasses{
-	width: 80%;
 }
 /*END PRODUCTS*/
 /*CAPTIONS*/
 .product p{
-	text-align: center;
 	background-color: black;
 	color: white;
 	font-family: Helvetica;
 	font-size: 18px;
 	padding: 15px 0;
-	margin: 0 30px;
 }
 /*END CAPTIONS*/
 /*INFORMATION*/
-.information{
-	margin-top: 50px;
-	margin-bottom: 150px; 
+.thesetwo{
+	width: 308px;
+}
+#bottom{
+	margin-bottom: 100px;
 }
 
-.infoboxes{
-	display: flex;
-	justify-content: center;
-
+#coordinates{
+	background-color: white;
+	color: black;
+	text-align: left;
 }
-
-.infoboxes2{
-	display: flex;
-}
-
-.infoboxes2 p{
-	background-color: black;
-	color: white;
-	font-family: Helvetica;
-	font-size: 18px;
-	padding: 15px 0;
-	width: 310px;
-	margin: 0 215px;
-	text-align: center;
-}
-
-.infodetails{
-	display: flex;
-	justify-content: center;
-	margin-top: 30px;
-}
-
-.infodetails p{
-	font-family: Helvetica;
-	font-size: 18px;
-	width: 310px;
-	margin: 0 215px;
-	text-align: center;
-}
-/*INFORMATION*/
+/*END INFORMATION*/
 /*FOOTER*/
 .footer{
+	display: flex;
 	background-color: black;
 	height: 200px;
 }
 
-.footercontent{
-	padding-top: 100px;
-	padding-left: 200px;
+.copyright{
+	display: flex;
+	align-items: center;
+	width: 960px;
+	margin: 0 auto;
 }
 
-.footercontent p{
+.footer p{
 	color: white;
 	font-family: Helvetica;
 	font-size: 18px;
