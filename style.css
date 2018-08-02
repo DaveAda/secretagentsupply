@@ -142,6 +142,20 @@ nav li{
 	margin: 0 215px;
 	text-align: center;
 }
+
+.infodetails{
+	display: flex;
+	justify-content: center;
+	margin-top: 30px;
+}
+
+.infodetails p{
+	font-family: Helvetica;
+	font-size: 18px;
+	width: 310px;
+	margin: 0 215px;
+	text-align: center;
+}
 /*INFORMATION*/
 /*FOOTER*/
 .footer{
