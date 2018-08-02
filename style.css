@@ -14,7 +14,7 @@ header{
 
 .headerbox img{
 	width: 70%;
-	padding: 10px 0;
+	padding: 10px 0 10px 10px;
 }
 
 .headerbox h1{
@@ -87,10 +87,6 @@ nav li{
 	font-size: 18px;
 	padding: 20px 50px;
 }
-
-.mobilenav{
-	display: none;
-}
 /*END NAV*/
 /*PRODUCTS*/
 .productcontainer{
@@ -158,4 +154,90 @@ nav li{
 	color: white;
 	font-family: Helvetica;
 	font-size: 18px;
+}
+/*END FOOTER*/
+/*MEDIA ONLY STUFF*/
+.mobilenav{
+	display: none;
+	list-style-type: none;
+}
+/*END MEDIA ONLY STUFF*?
+/*MEDIA QUERIES*/
+@media only screen and (max-width: 1024px){
+	.mobilenav{
+		display: block;
+	}
+	.desktopnav{
+		display: none;
+	}
+	.glasses{
+		display: none;
+	}
+	.newarrival h1{
+		font-size: 32px;
+	}
+	.newarrival h4{
+		font-size: 16px;
+	}
+	.productbox{
+		width: 450px;
+	}
+
+	.thesetwo{
+		width: 458px;
+	}
+}
+
+@media only screen and (max-width: 470px){
+	.banner{
+		width: 470px;
+	}
+	.logo img{
+		padding-left: 10px;
+		width: 60%;
+	}
+	nav{
+		width: 470px;
+	}
+	.moto{
+		align-items: flex-end;
+	}
+	.newarrival{
+		height: 100px;
+		width: 470px;
+		margin-bottom: 10px;
+		padding: 0;
+	}
+	.newarrival h1{
+		font-size: 20px;
+	}
+	.newarrival h4{
+		font-size: 14px;
+	}
+	.watch{
+		display: none;
+	}
+	.productcontainer{
+		width: 470px;
+	}
+	.boxes{
+		flex-direction: column;
+	}
+	.locations{
+		margin-top: 50px;
+	}
+	.product p{
+		width: 90%;
+		margin: 0 auto;
+	}
+	.productbox{
+		width: 88.3%;
+		margin: 0 auto;
+	}
+	.footer{
+		width: 470px;
+	}
+	.copyright{
+		justify-content: center;
+	}
 }
